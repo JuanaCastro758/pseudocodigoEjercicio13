@@ -1,0 +1,29 @@
+Proceso Ejercicio_13
+	op<-''
+	Mientras op!='c' O op!='C' Hacer
+		Escribir 'Menu'
+		Escribir 'a. suma'
+		Escribir 'b. dividir'
+		Escribir 'c. salir'
+		Si op=='a' O op=='A' Entonces
+			Escribir 'Ingrese dos numeros para sumar'
+			Leer n1
+			Leer n2
+			s<-n1+n2
+			Escribir 'la suma es ',s
+		FinSi
+		Si op=='b' O op=='B' Entonces
+			Escribir 'Dividir'
+			Leer n1
+			Escribir 'entre'
+			Leer n2
+			Si n2==0 Entonces
+				Escribir 'No se puede dividir entre 0'
+			Sino
+				d<-n1/n2
+			FinSi
+			Escribir 'la division es ',s
+		FinSi
+	FinMientras
+FinProceso
+
